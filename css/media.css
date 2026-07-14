@@ -1,18 +1,18 @@
 @media (max-width: 1400px) {
     .container {
-     max-width:1140px;
+        max-width: 1140px;
     }
 }
 
 @media (max-width: 1200px) {
     .container {
-     max-width:960px;
+        max-width: 960px;
     }
 }
 
 @media (max-width: 992px) {
     .container {
-     max-width:720px;
+        max-width: 720px;
     }
 
     .nav__burger {
@@ -32,7 +32,7 @@
     }
 
     header .menu {
-       position: absolute;
+        position: absolute;
         right: 20px;
         top: 100%;
         flex-direction: column;
@@ -46,24 +46,99 @@
         gap: 40px;
     }
 
-    .bestsellers__cards {
-        grid-template-columns: repeat(2, 1fr);
-        grid-template-rows: repeat(3, 800px);
+    .shop__cards {
+        grid-template-rows: repeat(2, 300px);
     }
 
-    .about, .bestsellers, .shop, .footer {
+    .sale {
+        width: 100px;
+
+    }
+
+    .shop__item_title {
+        font-size: 20px;
+    }
+
+    .div {
+        padding-bottom: 20px;
+    }
+
+    .btn {
+        width: 50px;
+        height: 50px;
+    }
+
+    .buttons {
+        gap: 15px;
+    }
+
+    .bestsellers__cards {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(3, 600px);
+    }
+
+    .bestsellers__item_title {
+        font-size: 20px;
+    }
+
+    .buy {
+        width: 150px;
+        padding: 20px;
+    }
+
+    .about,
+    .bestsellers,
+    .shop,
+    .footer {
         margin-top: 50px;
+    }
+
+    .footer {
+        padding: 50px;
+    }
+
+    .footer__menu {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
     }
 }
 
 @media (max-width: 768px) {
     .container {
-     max-width:540px;
+        max-width: 540px;
     }
+
+    .header__btn {
+        width: 150px;
+        justify-content: center;
+        padding: 20px;
+    }
+
+    .shop__cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+
+    .div {
+        padding-top: 50px;
+    }
+
+    .bestsellers__cards {
+        grid-template-columns: repeat(1, 1fr);
+        grid-template-rows: repeat(6, 500px);
+    }
+
+    .buttons {
+        padding-left: 20px;
+    }
+
 }
 
 @media (max-width: 576px) {
     .container {
-     max-width:100%;
+        max-width: 100%;
     }
 }

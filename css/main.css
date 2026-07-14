@@ -16,7 +16,7 @@
    .burger {
     display: none;
    }
-   
+
  .nav__content {
      display: grid;
      grid-template-columns: 1fr 10fr 1fr;
@@ -61,7 +61,8 @@
 
  .header__title {
      font-weight: 400;
-     font-size: 74px;
+     /* font-size: 74px; */
+     font-size: clamp(1.25rem, 0.4685rem + 3.9074vw, 4.625rem); 
      text-transform: uppercase;
      color: #eee;
      max-width: 1159px;
@@ -70,7 +71,8 @@
  }
 
  .header__desc {
-     font-size: 24px;
+     /* font-size: 24px; */
+     font-size: clamp(1rem, 0.8842rem + 0.5789vw, 1.5rem);
      color: #eee;
      display: flex;
      margin-top: 40px;
