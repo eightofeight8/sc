@@ -4,59 +4,289 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SoundCloud</title>
-    <link rel="stylesheet" href="./css/emo.css">
+    <title>Feng Shui</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/media.css">
 </head>
 
 <body>
-    <h1 class="Заголовок">SoundCloud</h1>
+    <header class="header">
+        <nav class="nav">
+            <div class="container nav__content">
+                <a href="" class="logo">Feng Shui</a>
+                <button class="nav__burger">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24">
+                        <path d="M0 0h24v24H0z" fill="none" />
+                        <g fill="none">
+                            <path
+                                d="m12.593 23.258l-.011.002l-.071.035l-.02.004l-.014-.004l-.071-.035q-.016-.005-.024.005l-.004.01l-.017.428l.005.02l.01.013l.104.074l.015.004l.012-.004l.104-.074l.012-.016l.004-.017l-.017-.427q-.004-.016-.017-.018m.265-.113l-.013.002l-.185.093l-.01.01l-.003.011l.018.43l.005.012l.008.007l.201.093q.019.005.029-.008l.004-.014l-.034-.614q-.005-.018-.02-.022m-.715.002a.02.02 0 0 0-.027.006l-.006.014l-.034.614q.001.018.017.024l.015-.002l.201-.093l.01-.008l.004-.011l.017-.43l-.003-.012l-.01-.01z" />
+                            <path fill="currentColor"
+                                d="M20 17.5a1.5 1.5 0 0 1 .144 2.993L20 20.5H4a1.5 1.5 0 0 1-.144-2.993L4 17.5zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 0 1 0-3zm0-7a1.5 1.5 0 0 1 0 3H4a1.5 1.5 0 1 1 0-3z" />
+                        </g>
+                    </svg>
 
-    <img src="./images/Gemini_Generated_Image_seqskyseqskyseqs.png" alt="" class="logo">
+                </button>
+                <ul class="menu">
+                    <li><a href="" class="menu__link">Home</a></li>
+                    <li><a href="" class="menu__link">Shop</a></li>
+                    <li><a href="" class="menu__link">About</a></li>
+                    <li><a href="" class="menu__link">Contact</a></li>
+                </ul>
+                <div class="nav__icons">
+                    <a href="" class="shopicon">
+                        <img src="./img/shopicon.png" alt="">
+                    </a>
+                    <a href="" class="favicon">
+                        <img src="./img/favicon.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </nav>
+        <div class="header__content container">
+            <h1 class="header__title">Harmony through Every Element</h1>
+            <div class="header__wrapper">
+                <p class="header__desc">Natural energy, tranquility, and harmony — this is what we offer through our
+                    clay pots. Inspired by the teachings of Feng Shui, we have created a collection of items that help
+                    fill your home with positive energy and create a space for prosperity.</p>
+                <a href="" class="header__btn">Show</a>
+            </div>
+        </div>
+    </header>
+    <main class="container">
+        <section class="shop">
+            <div class="desc shop__desc">
+                <h3 class="shop__title title">SHOP <span class="line"></span></h3>
+                <h2 class="info">Clay Pot Collection: Nature and Feng Shui in Every Detail</h2>
+                <p class="inform">We offer a wide selection of clay pots, crafted with attention to every detail. All of
+                    our products
+                    reflect the philosophy of Feng Shui, helping you create a harmonious space. The soft shades of gray
+                    and
+                    beige perfectly complement any interior, while the variety of shapes allows you to choose the pot
+                    that
+                    will become part of your unique energy.</p>
+            </div>
+            <div class="shop__cards">
+                <div class="shop__item">
+                    <img src="./img/shop1.jpg" alt="" class="item__img">
+                    <div class="shop__item_content">
+                        <p class="sale">50%</p>
+                        <div class="div">
+                            <h3 class="shop__item_title">Clay Pot "Sakura"</h3>
+                            <p class="shop__item_info">Size: Medium</p>
+                            <p class="shop__item_info">Color: Light Gray</p>
+                        </div>
+                        <p class="shop__item_price">Price: 60 USD</p>
+                    </div>
+                </div>
+                <div class="shop__item">
+                    <img src="./img/shop2.jpg" alt="" class="item__img">
+                    <div class="shop__item_content">
+                        <p class="sale">20%</p>
+                        <div class="div">
+                            <h3 class="shop__item_title">Clay Pot "Tokyo"</h3>
+                            <p class="shop__item_info">Size: Large</p>
+                            <p class="shop__item_info">Color: Beige</p>
+                        </div>
+                        <p class="shop__item_price">Price: 80 USD</p>
+                    </div>
+                </div>
+                <div class="shop__item">
+                    <img src="./img/shop3.jpg" alt="" class="item__img">
+                    <div class="shop__item_content">
+                        <p class="sale">40%</p>
+                        <div class="div">
+                            <h3 class="shop__item_title">Clay Pot "Fuji"</h3>
+                            <p class="shop__item_info">Size: Large</p>
+                            <p class="shop__item_info">Color: Dark Gray</p>
+                        </div>
+                        <p class="shop__item_price">Price: 120 USD</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="bestsellers">
+            <div class="bestsellers__desc">
+                <h3 class="bestsellers__title title">Bestsellers<span class="line"></span></h3>
+                <h2 class="info">Discover the most popular clay pots that attract the attention of our customers.</h2>
+                <p class="inform">These products perfectly combine Feng Shui aesthetics, quality, and style.</p>
+            </div>
+            <div class="bestsellers__cards">
+                <div class="bestsellers__item">
+                    <img src="./img/sell1.jpg" alt="" class="item__img">
+                    <div class="bestsellers__item_content">
+                        <div class="wrapper">
+                            <p class="sale">20%</p>
+                            <div class="buttons">
+                                <button class="btn">
+                                    <img src="./img/shopicon.png" alt="">
+                                </button>
+                                <button class="btn">
+                                    <img src="./img/favicon.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="div">
+                            <h3 class="bestsellers__item_title">Clay Pot "Midori"</h3>
+                            <p class="bestsellers__item_info">Size: Small</p>
+                            <p class="bestsellers__item_info">Color: Beige</p>
+                        </div>
+                        <p class="bestsellers__item_price">Price: 15 USD</p>
+                        <a href="" class="buy">Buy</a>
+                    </div>
+                </div>
+                <div class="bestsellers__item">
+                    <img src="./img/sell2.jpg" alt="" class="item__img">
+                    <div class="bestsellers__item_content">
+                        <div class="wrapper">
+                            <p class="sale">New</p>
+                            <div class="buttons">
+                                <button class="btn">
+                                    <img src="./img/shopicon.png" alt="">
+                                </button>
+                                <button class="btn">
+                                    <img src="./img/favicon.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="div">
+                            <h3 class="bestsellers__item_title">Clay Pot "Kyoto"</h3>
+                            <p class="bestsellers__item_info">Size: Medium</p>
+                            <p class="bestsellers__item_info">Color: Beige and Dark Gray</p>
+                        </div>
+                        <p class="bestsellers__item_price">Price: 40 USD</p>
+                        <a href="" class="buy">Buy</a>
+                    </div>
+                </div>
+                <div class="bestsellers__item">
+                    <img src="./img/sell3.jpg" alt="" class="item__img">
+                    <div class="bestsellers__item_content">
+                        <div class="wrapper">
+                            <p class="sale">10%</p>
+                            <div class="buttons">
+                                <button class="btn">
+                                    <img src="./img/shopicon.png" alt="">
+                                </button>
+                                <button class="btn">
+                                    <img src="./img/favicon.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="div">
+                            <h3 class="bestsellers__item_title">Clay Pot "Haru"</h3>
+                            <p class="bestsellers__item_info">Size: Small</p>
+                            <p class="bestsellers__item_info">Color: Beige</p>
+                        </div>
+                        <p class="bestsellers__item_price">Price: 10 USD</p>
+                        <a href="" class="buy">Buy</a>
+                    </div>
+                </div>
+                <div class="bestsellers__item">
+                    <img src="./img/sell4.jpg" alt="" class="item__img">
+                    <div class="bestsellers__item_content">
+                        <div class="wrapper">
+                            <p class="sale">40%</p>
+                            <div class="buttons">
+                                <button class="btn">
+                                    <img src="./img/shopicon.png" alt="">
+                                </button>
+                                <button class="btn">
+                                    <img src="./img/favicon.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="div">
+                            <h3 class="bestsellers__item_title">Clay Pot "Rinko"</h3>
+                            <p class="bestsellers__item_info">Size: Large</p>
+                            <p class="bestsellers__item_info">Color: Dark Gray</p>
+                        </div>
+                        <p class="bestsellers__item_price">Price: 200 USD</p>
+                        <a href="" class="buy">Buy</a>
+                    </div>
+                </div>
+                <div class="bestsellers__item">
+                    <img src="./img/sell5.jpg" alt="" class="item__img">
+                    <div class="bestsellers__item_content">
+                        <div class="wrapper">
+                            <p class="sale">90%</p>
+                            <div class="buttons">
+                                <button class="btn">
+                                    <img src="./img/shopicon.png" alt="">
+                                </button>
+                                <button class="btn">
+                                    <img src="./img/favicon.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="div">
+                            <h3 class="bestsellers__item_title">Clay Pot "Shizuoka"</h3>
+                            <p class="bestsellers__item_info">Size: Large</p>
+                            <p class="bestsellers__item_info">Color: Beige</p>
+                        </div>
+                        <p class="bestsellers__item_price">Price: 60 USD</p>
+                        <a href="" class="buy">Buy</a>
+                    </div>
+                </div>
+                <div class="bestsellers__item">
+                    <img src="./img/sell6.jpg" alt="" class="item__img">
+                    <div class="bestsellers__item_content">
+                        <div class="wrapper">
+                            <p class="sale">New</p>
+                            <div class="buttons">
+                                <button class="btn">
+                                    <img src="./img/shopicon.png" alt="">
+                                </button>
+                                <button class="btn">
+                                    <img src="./img/favicon.png" alt="">
+                                </button>
+                            </div>
+                        </div>
+                        <div class="div">
+                            <h3 class="bestsellers__item_title">Clay Pot "Kawa"</h3>
+                            <p class="bestsellers__item_info">Size: Small</p>
+                            <p class="bestsellers__item_info">Color: Beige</p>
+                        </div>
+                        <p class="bestsellers__item_price">Price: 30 USD</p>
+                        <a href="" class="buy">Buy</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="about">
+            <div class="about__content container">
+                <div class="about__wrapper">
+                    <h2 class="about__title title">About us <span class="line"></span>
+                    </h2>
+                    <h3 class="info">Welcome to our store, where tradition and modern style meet in every pot.</h3>
+                    <p class="inform">We are a team inspired by the philosophy of Feng Shui, creating unique clay pots
+                        that
+                        help fill your home with harmony and tranquility. Each of our products is crafted with special
+                        attention to detail and made from high-quality materials, allowing us to offer you items that
+                        are
+                        not only beautiful but also beneficial for your home.</p>
+                    <img src="./img/about.png" alt="" class="about__img">
 
-    <p class="text">SoundCloud (Саундклауд) — это международная онлайн-платформа и музыкальная соцсеть, где пользователи
-        могут загружать, продвигать и слушать аудиозаписи.</p>
-
-    <h2 class="Заголовок">Что это такое?</h2>
-
-    <div class="image">
-        <img src="./images/e38599940cd7.jpg" alt="марки">
-    </div>
-    <div class="about">
-
-        <p class="text2"> Платформа культовая для независимых музыкантов, диджеев, подкастеров и рэперов.
-            Именно здесь зародился жанр «саундклауд-рэп» и начинали карьеру такие звезды, как Billie Eilish, Post Malone
-            и
-            XXXTentacion.
-        </p>
-        <ul>
-            <li>Фирменная фишка: Музыкальное аудио отображается в виде графической звуковой волны (waveform), на которой
-                слушатели могут оставлять комментарии, привязанные к конкретной секунде трека.</li>
-            <li>Свобода и комьюнити: В отличие от Spotify или Apple Music, сюда любой желающий может загрузить свой трек
-                или
-                микс за пару кликов. Это делает SoundCloud огромной базой для поиска уникальных ремиксов, демо-записей и
-                андеграундной музыки.</li>
-            <li>Формат работы: Доступен бесплатно (с рекламой и ограничениями), но есть и платные подписки — как для
-                слушателей
-                (SoundCloud Go/Go+ без рекламы и офлайн), так и для авторов (Pro-аккаунты для расширенной статистики и
-                безлимитных загрузок)</li>
-        </ul>
-    </div>
-
-    <h3 class="Заголовок">Популярность</h3>
-
-    <div class="image">
-        <img src="./images/30050_l.jpg"
-            alt="картинка">
-
-    </div>
-
-    <p class="text">В странах СНГ у SoundCloud сложилась уникальная, во многом культовая репутация. Если для массового слушателя главными площадками остаются «Яндекс Музыка» и VK, то SoundCloud стал главным андеграунд-инкубатором</p>
-   
-    
-    <li class="link"><a href="https://soundcloud.com/" target="_blank">Оффициальный Сайт</a></li>
-    <li class="link"><a href="https://www.instagram.com/soundcloud/" target="_blank">Оффициальный Инстаграмм</a></li>
-    
-    <a href="./page..html" class="nextpage">Следующая Страница</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container footer__content">
+            <ul class="menu footer__menu">
+                <li><a href="" class="menu__link">Home</a></li>
+                <li><a href="" class="menu__link">Shop</a></li>
+                <li><a href="" class="menu__link">About</a></li>
+                <li><a href="" class="menu__link">Contact</a></li>
+            </ul>
+            <div class="footer__us">
+                <h3 class="footer__links">FOLLOW US</h3>
+                <div class="footer__icons">
+                    <a href=""><img src="./img/footer1.png" alt=""></a>
+                    <a href=""><img src="./img/footer2.png" alt=""></a>
+                    <a href=""><img src="./img/footer3.png" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 
 </html>
